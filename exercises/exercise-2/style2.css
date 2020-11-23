@@ -1,0 +1,11 @@
+body {
+  font-size: 18px;
+  font-family: Tahoma;
+  color: rebeccapurple;
+  background-color: mediumblue;
+  line-height: 1.5;
+}
+
+aside.links {
+  color: red;
+}
