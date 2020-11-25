@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <style>
+        .news {
+  margin: 2em auto 0;
+  width: 400px;
+  border: 1px solid red;
+  padding: 1em;
+}
+.news__image {
+  width: 100%;
+}
+.news__content {
+  border: 1px dashed pink;
+  max-height: 222px;
+  padding: 0 .5em;
+  overflow-y: auto;
+}
+    </style>
+</head>
+<body>
+    <article class="news">
+        <img src="http://www.fillmurray.com/g/300/200" alt="" class="news__image">
+        <h2 class="news__title">Fill Murray</h2>
+        <div class="news__content">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae culpa nostrum ex quod a commodi in, non repudiandae at saepe quidem iure molestiae, odit ab? Ducimus eaque perspiciatis neque fugit?</p>
+          
+          <!--Al duplicar el texto se acomoda debajo-->
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae culpa nostrum ex quod a commodi in, non repudiandae at saepe quidem iure molestiae, odit ab? Ducimus eaque perspiciatis neque fugit?</p>
+
+          <!--Al duplicarlo de nuevo se genera un scroll-->
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae culpa nostrum ex quod a commodi in, non repudiandae at saepe quidem iure molestiae, odit ab? Ducimus eaque perspiciatis neque fugit?</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae culpa nostrum ex quod a commodi in, non repudiandae at saepe quidem iure molestiae, odit ab? Ducimus eaque perspiciatis neque fugit?</p>
+        </div>
+      </article>
+    
+</body>
+</html>

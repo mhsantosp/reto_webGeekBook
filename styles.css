@@ -48,6 +48,7 @@ main .nav-conten {
   margin-right: .5rem;
   display: flex;
   align-items: center;
+  border-radius: 5px;
 }
 
 footer .footer {

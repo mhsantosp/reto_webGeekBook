@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Web - Ejercicio 10</title>
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; }
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  height: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+    </style>
+</head>
+<body>
+
+    <h1>Tecnologías Web</h1>
+
+    <p>Las tecnologías Web sirven para acceder a los recursos de conocimiento disponibles en Internet o en las intranets utilizando un navegador. Están muy extendidas por muchas razones: facilitan el desarrollo de sistemas de Gestión del Conocimiento (en lo adelante GC), su flexibilidad en términos de escalabilidad, es decir, a la hora de expandir el sistema; su sencillez de uso y que imitan la forma de relacionarse de las personas, al poner a disposición de todos el conocimiento de los demás, por encima de jerarquías, barreras formales u otras cuestiones. Estas tecnologías pueden llegar a proporcionar recursos estratégicos, pero, evidentemente, no por la tecnología en sí misma, que está disponible ampliamente, sino por lo fácil que es personalizarla y construir con ella sistemas de GC propietarios de la empresa.
+ 
+ 
+        Internet, Intranet o extranet permiten a los usuarios el acceso a una gran cantidad de información: leer publicaciones periódicas, buscar referencias en bibliotecas, realizar paseos virtuales por museos, compras electrónicas y otras muchas funciones. Gracias a la forma en que está organizada la World Wide Web (WWW), los usuarios pueden saltar de un recurso a otro con facilidad.
+         
+        Dentro de este grupo de tecnologías Web, podemos incluir los agentes inteligentes, el chat, los motores de búsqueda, los navegadores y las tecnologías push.</p>
+
+        <ul>
+
+        <li class="tooltip">HTML
+            <span class="tooltiptext">El lenguaje de marcado de hipertexto es el lenguaje utilizado para describir y definir el contenido de una página web. "Hipertexto" se refiere a enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al cargar contenido en Internet y vincularlo a páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web».</span>
+        </li>
+
+          <li class="tooltip">CSS
+            <span class="tooltiptext">Las hojas de estilo en cascada (Cascading Style Sheets) se utilizan para describir la apariencia del contenido web.
+                CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
+            </span>
+          </li>
+
+          <li class="tooltip">JavaScript
+            <span class="tooltiptext">JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional). 
+                Esta sección está dedicada al lenguaje JavaScript en sí, y no a las partes que son específicas de las páginas web u otros entornos host. Para información acerca de APIs específicas para páginas Web, consulta APIs Web y DOM.
+            </span>
+          </li>
+    </ul>
+</body>
+</html>
